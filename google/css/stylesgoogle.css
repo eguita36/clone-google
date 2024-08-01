@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  height: 100vh;
+}
+:root {
+  --color-principal: black;
+  --color-suave: #dfe1e5;
+}
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.contenedor-header {
+  display: flex;
+  justify-content: end;  
+  font-size: 1.6rem;
+  height: 10vh;
+}
+.contenedor-header ul {
+  display: flex;  
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--color-principal);
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+}
+.contenedor-header ul li {
+  list-style: none;
+  margin-right: 14px;
+}
+.contenedor-header .icon {
+  margin-right: 8px;
+  background-image: url("https://static.thenounproject.com/png/756729-200.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.contenedor-header img {
+  object-fit: cover;
+  border-radius: 50%; 
+  margin-right: 8px;
+  cursor: pointer;
+}
+.contenedor-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+.contenedor-main img {
+  width: 400px;
+}
+.div-input {
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  border-radius: 100px;
+  border: 1px solid var(--color-suave);
+}
+.div-input:hover {
+  box-shadow: 0px 1px 3px blue;
+}
+input {
+  border: none;
+  outline: none;
+  width: 552px;
+  height: 38px;
+}
+.searches {
+  background-image: url('https://img.icons8.com/android/24/000000/search.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 16px;
+  margin-right: 6px;
+  opacity: 0.5;
+}
+.microphone {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/028/766/367/original/google-mic-microphone-icon-symbol-free-png.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 24px;
+  cursor: pointer;  
+  opacity: 0.8;
+}
+.botones {
+  margin: 0 auto;
+}
+.botones button {
+  height: 34px;
+  width: 150px;
+  font-size: 1.2rem;
+  border: none;  
+  border-radius: 10px;
+  margin: 46px 18px 0 18px;
+  cursor: pointer;
+} 
+.botones button:hover {
+  border: 1px solid #879038;
+  box-shadow: 0 1px 3px #836b2b70;
+  color: #121212;
+  font-weight: bold;
+}
+.contenedor-footer {
+  font-size: 1.1rem;
+  width: 100%;
+  height: 68px;
+  position: absolute;
+  bottom: 0;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--color-suave);
+}
+.contenedor-footer ul {
+  display: flex;
+}
+.contenedor-footer ul li {
+  list-style: none;
+  margin: 0 6px;
+}

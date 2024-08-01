@@ -1,0 +1,28 @@
+@media (max-width: 665px) {
+  .contenedor-header {
+    font-size: 1.4rem;
+  }
+  .contenedor-header img {
+    width: 30px;
+    height: 28px;
+  }
+  .contenedor-main img {
+    width: 65vw;
+  }
+  .div-input {
+    width: 88vw;
+  } 
+  input {
+    width: 68vw;
+  }
+  .contenedor-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  }
+  .contenedor-footer .lista-right {
+    margin-top: 20px;
+  }
+}

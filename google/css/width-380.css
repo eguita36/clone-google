@@ -1,0 +1,7 @@
+@media (max-width: 380px) {
+  .botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
